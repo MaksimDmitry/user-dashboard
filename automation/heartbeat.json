@@ -1,0 +1,33 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "data_sources": {
+    "database": {
+      "status": "connected",
+      "latency_ms": 15
+    },
+    "cache": {
+      "status": "healthy",
+      "hit_rate": 0.95
+    },
+    "api_gateway": {
+      "status": "operational",
+      "response_time_avg_ms": 200
+    }
+  },
+  "metrics": {
+    "cpu_usage_percent": 25.5,
+    "memory_usage_mb": 512,
+    "active_users": 1234
+  },
+  "alerts": [
+    // Example of an active alert; can be empty array if no alerts are active
+    {
+      "severity": "warning",
+      "message": "High CPU usage detected",
+      "timestamp": "2024-10-27T10:25:00Z"
+    }
+  ]
+}
